@@ -9,9 +9,9 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.oscarapi.dto.ApiResponse
-import com.example.oscarapi.dto.VotoRequest
-import com.example.oscarapi.network.RetrofitClient
+import com.example.oscarapi.dtos.ApiResponse
+import com.example.oscarapi.dtos.VotoRequest
+import com.example.oscarapi.API.RetrofitHelper
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -75,7 +75,7 @@ class ConfirmarVotoActivity : AppCompatActivity() {
 //            token = tokenInt
 //        )
 //
-//        RetrofitClient.api.confirmarVoto(request).enqueue(object : Callback<ApiResponse> {
+//        RetrofitHelper.api.confirmarVoto(request).enqueue(object : Callback<ApiResponse> {
 //            override fun onResponse(call: Call<ApiResponse>, response: Response<ApiResponse>) {
 //                btnConfirmar.isEnabled = true
 //

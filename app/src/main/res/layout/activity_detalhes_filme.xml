@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="40dp">
+
+    <ImageView
+        android:id="@+id/ivVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/voltar" />
+
+    <ImageView
+        android:id="@+id/ivPosterDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/bg_dialog_card"
+        android:scaleType="centerCrop"
+        android:clipToOutline="true"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tvNomeDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/tvGeneroDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_muted"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnVotar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_button_gold"
+        android:text="@string/votar"
+        android:textColor="@color/bg_dark"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:stateListAnimator="@null"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvVotoRegistrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableStart="@drawable/ic_check_circle"
+        android:drawablePadding="6dp"
+        android:text="@string/voto_registrado_localmente"
+        android:textColor="@color/text_muted"
+        android:textSize="13sp"
+        android:gravity="center_vertical"
+        android:visibility="invisible" />
+
+</LinearLayout>
