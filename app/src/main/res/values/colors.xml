@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="bg_dark">#15120F</color>
+    <color name="bg_dialog">#1C1814</color>
+    <color name="gold">#D9A24B</color>
+    <color name="gold_light">#E8C07E</color>
+    <color name="text_muted">#8A8275</color>
+    <color name="text_light">#EDE6D6</color>
+    <color name="divider_line">#3A322A</color>
 </resources>
