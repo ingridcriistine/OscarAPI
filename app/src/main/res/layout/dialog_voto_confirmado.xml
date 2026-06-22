@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/bg_dialog_card"
     android:orientation="vertical"
     android:gravity="center"
@@ -43,6 +44,7 @@
         android:textAllCaps="false"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:stateListAnimator="@null" />
+        android:stateListAnimator="@null"
+        app:backgroundTint="@null" />
 
 </LinearLayout>

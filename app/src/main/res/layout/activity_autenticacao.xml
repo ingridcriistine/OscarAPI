@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/bg_dark"
     android:gravity="center_horizontal"
     android:orientation="vertical"
@@ -111,13 +112,14 @@
     <Button
         android:id="@+id/btnEntrar"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginTop="32dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/bg_button_gold"
         android:text="Entrar"
         android:textAllCaps="false"
         android:textColor="@color/bg_dark"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
 
 </LinearLayout>

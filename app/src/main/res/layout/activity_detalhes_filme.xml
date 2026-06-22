@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/bg_dark"
     android:orientation="vertical"
     android:paddingHorizontal="24dp"
@@ -19,7 +20,7 @@
     <ImageView
         android:id="@+id/ivPosterDetalhe"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="520dp"
         android:background="@drawable/bg_dialog_card"
         android:scaleType="centerCrop"
         android:clipToOutline="true"
@@ -56,7 +57,8 @@
         android:textStyle="bold"
         android:textSize="15sp"
         android:stateListAnimator="@null"
-        android:layout_marginBottom="12dp" />
+        android:layout_marginBottom="12dp"
+        app:backgroundTint="@null" />
 
     <TextView
         android:id="@+id/tvVotoRegistrado"

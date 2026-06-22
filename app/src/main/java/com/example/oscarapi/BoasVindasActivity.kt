@@ -23,7 +23,7 @@ class BoasVindasActivity : AppCompatActivity() {
         tvToken.text = SessaoVoto.token?.toString() ?: "--"
 
         btnVotarFilme.setOnClickListener {
-            // Implementação futura ou placeholder
+            startActivity(Intent(this, ListaFilmesActivity::class.java))
         }
 
         btnVotarDiretor.setOnClickListener {
