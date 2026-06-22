@@ -10,8 +10,8 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.oscarapi.API.RetrofitHelper
-import com.example.oscarapi.adapter.FilmeAdapter
 import kotlinx.coroutines.launch
+import com.example.oscarapi.adapter.FilmeAdapter
 
 class ListaFilmesActivity : AppCompatActivity() {
 

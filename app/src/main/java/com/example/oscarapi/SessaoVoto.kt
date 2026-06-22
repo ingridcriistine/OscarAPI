@@ -4,7 +4,7 @@ object SessaoVoto {
     var usuarioId: Long = -1L
     var usuarioNome: String? = null
     var token: Int? = null
-    var filmeId: Long? = null
+    var filmeId: String? = null
     var filmeNome: String? = null
     var diretorId: Long? = null
     var diretorNome: String? = null
