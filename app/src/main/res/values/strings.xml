@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">OscarAPI</string>
+    <string name="filmes_indicados">Filmes indicados</string>
+    <string name="votar">Votar</string>
+    <string name="voto_registrado_localmente">Voto registrado localmente</string>
+    <string name="erro_carregar_filmes">Não foi possível carregar os filmes</string>
+    <string name="erro_conexao">Erro de conexão com o servidor</string>
+    <string name="voltar">Voltar</string>
 </resources>

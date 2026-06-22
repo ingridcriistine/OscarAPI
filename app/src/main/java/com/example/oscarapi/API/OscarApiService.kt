@@ -5,6 +5,7 @@ import com.example.oscarapi.dtos.Diretor
 import com.example.oscarapi.dtos.LoginRequest
 import com.example.oscarapi.dtos.LoginResponse
 import com.example.oscarapi.dtos.VotoRequest
+import com.example.oscarapi.model.Filme
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
@@ -20,4 +21,7 @@ interface OscarApiService {
 
     @GET
     fun getDiretores(@Url url: String = "http://200.236.3.97/diretor.json"): Call<List<Diretor>>
+  
+    @GET
+    suspend fun listarFilmes(@Url url: String): List<Filme>
 }
