@@ -1,6 +1,7 @@
 package com.example.oscarapi.API
 
 import com.example.oscarapi.dtos.ApiResponse
+import com.example.oscarapi.dtos.Diretor
 import com.example.oscarapi.dtos.LoginRequest
 import com.example.oscarapi.dtos.LoginResponse
 import com.example.oscarapi.dtos.VotoRequest
@@ -18,6 +19,9 @@ interface OscarApiService {
     @POST("votos/confirmar")
     fun confirmarVoto(@Body request: VotoRequest): Call<ApiResponse>
 
+    @GET
+    fun getDiretores(@Url url: String = "http://200.236.3.97/diretor.json"): Call<List<Diretor>>
+  
     @GET
     suspend fun listarFilmes(@Url url: String): List<Filme>
 }
